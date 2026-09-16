@@ -1,0 +1,16 @@
+[project]
+name = "passnorm"
+version = "0.1.0"
+description = "Normalizes messy password input into a consistent form before strength scoring"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "flint-bits82" }]
+dependencies = []
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
